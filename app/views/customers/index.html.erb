@@ -41,6 +41,12 @@
           <%= f.button "リセット", type: :reset, class: "btn btn-default" %>
         </div>
       </div>
+       <div class="col-sm-2 col-xs-12">
+          <div class="form-group">
+            <%= f.label :company_name_cont, 'コメント内容' %>
+            <%= f.search_field :comments_body_cont, class: "form-control input-sm" %>
+          </div>
+        </div>
     <% end %>
 
     <hr />
